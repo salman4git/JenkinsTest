@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuites name='JenkinsTestUITests.xctest' tests='2' failures='2'>
+  <testsuite name='JenkinsTestUITests.JenkinsTestUITests' tests='2' failures='2'>
+    <testcase classname='JenkinsTestUITests.JenkinsTestUITests' name='testExample'>
+      <failure message='Unexpected test interruption without any failures reported'>JenkinsTestUITests.swift:20</failure>
+    </testcase>
+    <testcase classname='JenkinsTestUITests.JenkinsTestUITests' name='testExample'>
+      <failure message='JenkinsTest crashed in &lt;external symbol&gt;'>&lt;unknown&gt;:0</failure>
+    </testcase>
+  </testsuite>
+</testsuites>

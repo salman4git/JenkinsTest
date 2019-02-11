@@ -19,8 +19,6 @@ platform :ios do
   desc "Description of what the lane does"
   lane :CI do
     # add actions here: https://docs.fastlane.tools/actions
-      run_tests(project: "JenkinsTest.xcodeproj")
-      devices: ["iPhone 6s"],
-      scheme: "JenkinsTest")
+      puts("this is my first 🚀 lane")
   end
 end
