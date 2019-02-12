@@ -22,7 +22,7 @@ platform :ios do
       puts("this is my first 🚀 lane")
       
    run_tests(
-  workspace: "JenkinsTest.xcworkspace",
+  workspace: "JenkinsTest.xcodeproj",
   scheme: "JenkinsTest",
   clean: true
     )
