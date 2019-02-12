@@ -22,7 +22,7 @@ platform :ios do
       puts("this is my first 🚀 lane")
       
    build_app(scheme: "JenkinsTest",
-            workspace: "JenkinsTest.xcodeproj",
+            project: "JenkinsTest.xcodeproj",
             include_bitcode: true)
   end
 end
