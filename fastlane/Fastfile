@@ -20,8 +20,11 @@ platform :ios do
   lane :CI do
     # add actions here: https://docs.fastlane.tools/actions
       puts("this is my first 🚀 lane")
-      run_tests(project: "JenkinsTest.xcodeproj",
-      devices: ["iPhone 6s"],
-      scheme: "JenkinsTest")
+      
+   run_tests(
+  workspace: "JenkinsTest.xcworkspace",
+  scheme: "JenkinsTest",
+  clean: true
+    )
   end
 end
