@@ -20,9 +20,5 @@ platform :ios do
   lane :CI do
     # add actions here: https://docs.fastlane.tools/actions
       puts("this is my first 🚀 lane")
-      
-   build_app(scheme: "JenkinsTest",
-            project: "JenkinsTest.xcodeproj",
-            include_bitcode: true)
-  end
+     end
 end
