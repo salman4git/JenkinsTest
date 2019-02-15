@@ -42,7 +42,7 @@
 		FC9129D0220C1DB50016E3CC /* JenkinsTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = JenkinsTest.xcdatamodel; sourceTree = "<group>"; };
 		FC9129D2220C1DB80016E3CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC9129D5220C1DB80016E3CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		FC9129D7220C1DB80016E3CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC9129D7220C1DB80016E3CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = JenkinsTest/Info.plist; sourceTree = SOURCE_ROOT; };
 		FC9129DC220C1DB80016E3CC /* JenkinsTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JenkinsTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC9129E0220C1DB80016E3CC /* JenkinsTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JenkinsTestTests.swift; sourceTree = "<group>"; };
 		FC9129E2220C1DB80016E3CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -438,7 +438,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 6B6Q56HGR7;
-				INFOPLIST_FILE = JenkinsTest/Info.plist;
+				INFOPLIST_FILE = /Users/salmansiddiqui/Desktop/JenkinsTest/JenkinsTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -459,14 +459,14 @@
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 6B6Q56HGR7;
-				INFOPLIST_FILE = JenkinsTest/Info.plist;
+				INFOPLIST_FILE = /Users/salmansiddiqui/Desktop/JenkinsTest/JenkinsTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.tick.ios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "63cc1916-e27d-429b-ae82-eb7dfbe8b36a";
+				PROVISIONING_PROFILE = "d6ca1db3-e390-42f6-9689-04705bead22b";
 				PROVISIONING_PROFILE_SPECIFIER = TickAppstore;
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -479,7 +479,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = JenkinsTestTests/Info.plist;
+				INFOPLIST_FILE = /Users/salmansiddiqui/Desktop/JenkinsTest/JenkinsTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -499,7 +499,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = JenkinsTestTests/Info.plist;
+				INFOPLIST_FILE = /Users/salmansiddiqui/Desktop/JenkinsTest/JenkinsTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
