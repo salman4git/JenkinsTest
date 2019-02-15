@@ -20,6 +20,6 @@ platform :ios do
   lane :CI do
     # add actions here: https://docs.fastlane.tools/actions
       puts("this is my first 🚀 lane")
-build_app(scheme: "MyApp")
+   # build_app(scheme: "MyApp")
      end
 end
