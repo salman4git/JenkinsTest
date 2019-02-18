@@ -4,7 +4,13 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh 'fastlane debug' 
+                echo 'Hello, Salman'
+            }
+        }
+
+        stage('Debug') {
+            steps {
+                echo 'Hello, World'
             }
         }
     }
