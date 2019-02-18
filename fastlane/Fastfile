@@ -17,10 +17,37 @@ default_platform(:ios)
 
 platform :ios do
   desc "Description of what the lane does"
-  lane :CI do
+  lane :debug do
     # add actions here: https://docs.fastlane.tools/actions
-      puts("this is my first 🚀 lane")
-      build_app(scheme: "JenkinsTest")
-   # build_app(scheme: "MyApp")
-     end
+      puts("this is Debug 🚀 lane")
+     # build_app(scheme: "JenkinsTest")
+   	 #  build_app(export_method: "development", export_options: { provisioningProfiles: { "com.tick.ios" => "TickDevProvisioning" }})
+
+gym(scheme: "JenkinsTest", clean: true, silent: true, include_bitcode: false, export_options:{
+			compileBitcode: false,
+			method: "development",
+			signingStyle: "manual",
+  			provisioningProfiles:{
+    				"com.tick.ios": "TickDevProvisioning"
+  			}
+		})
+end
+
+lane :release do
+    # add actions here: https://docs.fastlane.tools/actions
+      puts("this is Release 🚀 lane")
+     # build_app(scheme: "JenkinsTest")
+   	 #  build_app(export_method: "development", export_options: { provisioningProfiles: { "com.tick.ios" => "TickDevProvisioning" }})
+
+gym(scheme: "JenkinsTest", clean: true, silent: true, include_bitcode: false, export_options:{
+			compileBitcode: false,
+			method: "app-store",
+			signingStyle: "manual",
+  			provisioningProfiles:{
+    				"com.tick.ios": "TickAppstore"
+  			}
+		})
+end
+
+
 end
