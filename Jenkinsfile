@@ -13,5 +13,4 @@ pipeline {
    	 	sh 'fastlane release'
    	 	}
    	 }		
-	}
 }
