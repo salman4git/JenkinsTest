@@ -7,10 +7,12 @@ pipeline {
         sh 'fastlane debug'
       		}
    	 	}
+   	 }
 
    	 stage('Debug') {
    	 	steps {
    	 	sh 'fastlane release'
-   	 	}
-   	 }		
+   	 		}
+   	 	}	
+   	 }	
 }
