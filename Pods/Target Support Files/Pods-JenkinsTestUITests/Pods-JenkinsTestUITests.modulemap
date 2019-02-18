@@ -1,0 +1,6 @@
+framework module Pods_JenkinsTestUITests {
+  umbrella header "Pods-JenkinsTestUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
