@@ -4,13 +4,13 @@ pipeline {
 	stages {
 	  stage('Print') {
       steps {
-        fastlane debug
+        sh fastlane debug
       		}
    	 	}
 
    	 stage('Debug') {
    	 	steps {
-   	 	 fastlane release
+   	 	sh fastlane release
    	 	}
    	 }		
 	}
