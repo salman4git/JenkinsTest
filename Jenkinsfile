@@ -4,7 +4,7 @@ pipeline {
 	stages {
 	  stage('Print') {
       steps {
-        checkout debug
+        fastlane debug
       		}
    	 	}
 
