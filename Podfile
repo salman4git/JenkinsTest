@@ -10,7 +10,7 @@ target 'JenkinsTest' do
   target 'JenkinsTestTests' do
     inherit! :search_paths
     # Pods for testing
-    pod 'Alamofire'
+    pod 'Moya', '~> 10.0'
   end
 
   target 'JenkinsTestUITests' do
